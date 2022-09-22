@@ -1,0 +1,143 @@
+.footer {
+    background-color: rgb(46, 46, 46);
+    /* background-color: var(--text-color); */
+    height: 400px;
+}
+
+.footer-box {
+    padding: 12px;
+}
+
+.footer-title {
+    color: #fff;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-link:hover {
+    color: #0077B5;
+    transition: ease-in .4s;
+}
+
+.footer-input {
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding : 4px 6px;
+    line-height: 16px;
+}
+
+.footer-btn {
+    background-color: #14B9D5;
+    padding: 5px 15px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-btn:hover {
+    transition: ease-in .4s;
+    background-color: var(--blue-color);
+}
+
+.footer-img {
+    margin:15px 0;
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.footer-icon-title {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 42%;
+}
+
+.footer-icons {
+    margin-left: calc(41% + 4px);
+    margin-top: 10px;
+}
+
+.footer-icons-item {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 12px;
+
+    position: relative;
+}
+  
+.footer-icons-item::before, .footer-icons-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #fc2f70;
+    transform: scaleY(0);
+    transition: transform 0.5s ease;
+}
+  
+.footer-icons-item::before {
+    left: -8px;
+    transform-origin: center top;
+}
+  
+.footer-icons-item:hover::before {
+    transform-origin: center bottom;
+    transform: scaleY(1);
+}
+  
+.footer-icons-item::after {
+    right: -8px;
+    transform-origin: center bottom;
+}
+  
+.footer-icons-item:hover::after {
+    transform-origin: center top;
+    transform: scaleY(1);
+}
+
+.footer-icons-item:hover:nth-child(1) {
+    color:#4267b2;
+    transition: ease-in .4s;
+}
+
+.footer-icons-item:hover:nth-child(2) {
+    color:#1DA1F2;
+    transition: ease-in .4s;
+}
+
+.footer-icons-item:hover:nth-child(3) {
+    color:#E95950;
+    transition: ease-in .4s;
+}
+
+.footer-icons-item:hover:nth-child(4) {
+    color:#0077B5;
+    transition: ease-in .4s;
+}
+
+.footer-icons-item:hover:nth-child(5) {
+    color:#E95950;
+    transition: ease-in .4s;
+}
+
+.copyright {
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 0;
+}

@@ -1,0 +1,462 @@
+
+/* Container Start */
+.container__heading {
+
+}
+
+.container__heading-head {
+    margin: 50px;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.heading-head-proposals {
+    margin: 0 420px;
+}
+
+.heading-head-destination {
+    margin: 20px 358px 0px;
+}
+
+/* .container__body {
+    display: grid;
+    grid-template-columns: auto;
+} */
+
+.contanier__body-middle {
+    display: flex;
+}
+
+.container__body-image {
+    position: relative;
+}
+
+.container__body-img {
+    /* border-radius: 10%; */
+    padding:15px 15px 15px 0;
+    width: 100%;
+    height: 390px;
+    position: relative;
+    object-fit: cover;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.container__body-img:hover {
+    animation: linear 0.2s;
+    /* animation: jelly 0.7s; */
+}
+/*   
+.container__body-img::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 4px solid hsl(236, 32%, 26%);
+    transform-origin: center;
+    transform: scale(1);
+}
+  
+.container__body-img:hover::before {
+    transition: all 0.75s ease-in-out;
+    transform-origin: center;
+    transform: scale(1.75);
+    opacity: 0;
+} */
+
+.container__body-note {
+    position: absolute;
+    top: 70%;
+    left: 14%;
+    color: #fff;
+}
+
+.container__body-second,
+.container__body-third{
+    /* margin-top: 15px; */
+    padding:15px;
+}
+
+
+
+.container__body-address {
+
+}
+
+.address-samui {
+    display: flex;
+    align-items: flex-start;
+}
+
+.address-samui-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-right: 2px;
+}
+
+.address-samui-img:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+}
+  
+
+.address-samui-link {
+    text-decoration: none;
+}
+
+.address-samui-name {
+    font-size: 20px;
+    color: #555555;
+    margin-left: 16px;
+
+}
+
+.address-samui-icon {
+    font-size: 15px;
+    color: #9a9a9a;
+    font-weight: 100;
+    margin: 15px 0;
+    letter-spacing: 3px;
+}
+
+.address-samui-price {
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 100px;
+    margin-right: 2px;
+    background: linear-gradient(to right, #14b9d5 0%, #0071a7 100%);
+}
+
+.address-samui-price:hover {
+    opacity: 0.6;
+}
+/* END C.Heading */
+
+     /* ------------------------------------ */
+
+
+/* Start C.Second */
+
+.container__second {
+    position: relative;
+}
+
+.container__second-title {
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/sky_.jpg);
+    background-attachment: fixed;
+}
+
+.container__second-img {
+    width: 100%;
+    /* opacity: 0.7; */
+}
+
+.container__heading-tittle-second {
+    position: absolute;
+    top: 7%;
+    right: 53%;
+    transform: translateX(50%);
+}
+
+.heading-head-proposals {
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--text-color);
+
+}
+
+.heading-head-destination {
+    justify-content: center;
+    margin-left: calc(35% + 10px);
+    color: var(--text-color);
+}
+
+.heading-head-proposals-second {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.heading-head-destination-second {
+    line-height: 51px;
+    font-size: 36px;
+    margin-left: calc(20% + 20px);
+}
+
+.container__board {
+    /* position: absolute;
+    top: 24%;
+    right: 50%;
+    transform: translateX(50%);
+    width: 86%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 30px; */
+    position: absolute;
+    top: 25%;
+}
+
+.container__body-img-second {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+    padding-right: 0px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container__board {
+
+}
+
+.container__board-table {
+    /* display: block; */
+}
+
+.container__board-linefisrt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__board-item {
+
+}
+
+.container__board-both {
+    /* background-color: #fff ; */
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    padding: 4px;
+}
+    
+
+.container__board-ni {
+    padding: 20px 10px 10px;
+    width: 356px;
+}
+
+.container__board-name {
+    background-color: rgb(255,255,255,0.7);
+    font-size: 20px;
+    font-weight: 700;
+    color: #555555;
+    padding:0 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+.container__board-input {
+    display: flex;
+    /* background-color: #f9f9f9; */
+    color: #ff3e04;
+    font-size: 15px;
+    padding:2px;
+    font-weight: 700;
+    /* outline: none; */
+    /* border-radius: 100px; */
+    /* border: 1px solid #f1f1f1; */
+    /* cursor: pointer; */
+    width: 100%;
+    margin: 2px 0;
+}
+
+.btn-search {
+    padding: 8px 130px;
+    font-weight: 600;
+}
+
+/* END  C.Second */
+
+/* ------------------------------------------- */
+
+
+/* Star Container Tranvel */
+.container__travel {
+    display: flex;
+ }
+ 
+ .travel__articles {
+     width: 30%;
+     background-color: #14B9D5;
+     color: #fff;
+     padding: 80px 40px 0px 40px;
+     flex: 0.75;
+     margin:15px;
+ }
+ 
+ .travel__articles-title {
+     font-size: 14px;
+     font-weight: 400;
+     letter-spacing: 2px;
+ }
+ 
+ .travel__articles-paragrape {
+     line-height: 28px;
+ }
+ 
+ .travel__flexbox-on {
+     flex: 1;
+ }
+ 
+ .travel__flexbox-under {
+     flex: 1;
+ }
+ 
+ .flex-item {
+     /* display: block; */
+     padding: 30px;
+     align-items: center;
+     border: 1px solid #f1f1f1;
+     margin: 15px;
+ }
+ 
+ .flex-date {
+     font-size: 14px;
+     color: #9a9a9a;
+     letter-spacing: 2px;
+     line-height: 26px;
+ }
+ 
+ .flex-title {
+     font-size: 25px;
+     line-height: 35px;
+     color: #555555;
+ }
+ 
+ .flex-parag {
+     color: #9a9a9a;
+     line-height: 28px;
+ }
+ 
+ .btn-travel-readmore {
+     text-decoration: none;
+     padding: 6px 20px;
+ }
+ 
+ /* END Container Tranvel */
+
+
+ 
+/* Start container__forecast */
+
+.container__forecast {
+    /* position: relative; */
+    background-image: url(./img/sky_.jpg);
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.container__forecast-both {
+    /* position: absolute; */
+    /* transform: translateY(-50%); */
+    /* text-transform: uppercase; */
+    /* top: 50%; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.container__forecast-box {
+    border-radius: 20px;
+    /* background-color: rgb(0, 0, 0); */
+    padding: 10px;
+    margin: 42px 12px ;
+    background-color: var(--btn-color);
+}
+
+.container__forecast-icon {
+    font-size: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+.container__forecast-title {
+    /* margin-left: 20%; */
+}
+
+.container__forecast-para {
+    margin-left: 4px;
+}
+
+.container__forecast-o {
+    display: flex;
+    height: 300px;
+}
+
+
+/* END container__forecast */
+
+
+/* <!-- Start container__Third --> */
+.container__third {
+    
+}
+
+.container__third-flexbox {
+    display: flex;
+}
+
+.flexbox__f {
+    /* flex: 1; */
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+    margin: 0 15px;
+}
+
+.flexbox__f-head {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.flexbox__monthly {
+    background-color: #555555;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 5px 10px;
+    margin-top: 22px;
+    height: 24px;
+}
+
+.flex__paragrap {
+    display: flex;
+    padding: 8px 5px;
+}
+
+.flex__icon {
+    color:green;
+    margin-right: 5px;
+}
+
+.flex__paragrap-p {
+    color: #9a9a9a;
+    font-size: 16px;
+}
+
+.btn-travel-readmore {
+    background-color: #14B9D5;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: var(--blue-color);
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+    border-radius: 50px;
+}
+
+.btn-travel-readmore:hover {
+
+}
+/* <!-- END container__Third --> */

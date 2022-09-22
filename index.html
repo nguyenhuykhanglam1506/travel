@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/img">
+    <link rel="stylesheet" href="./asset/base.css">
+    <link rel="stylesheet" href="./asset/head&slider.css">
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/footer.css">
+    <link rel="stylesheet" href="./asset/responsive.css">
+    <link rel="stylesheet" href="./asset/grid.css">
+    <link rel='stylesheet' href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+    <title>TTCM</title>
+</head>
+<body>
+    <div class="grid">
+        <header>
+            <section class="topbar hidden-on-mobile">
+                <div style="background-color: var(--blue-color);" class="">
+                    <div class="grid wide">
+                        <div class="row">
+                                <div style="display: flex;" class="topbar-first col l-6 m-6 c-6 ">
+                                    <img class="topbar--first-img mr10px" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/world-white.svg">
+                                    <div class=" mr10px">Ngôn Ngữ</div>
+                                    <a class="hidden-on-tablet-mobile topbar--link"  href="">VN</a>
+                                    <a class="hidden-on-tablet-mobile topbar--link"  href="">EN</a>
+                                    <img alt="" width="15" height="15" class="mr10px" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/share-white.svg">
+                                <div class="mr10px">Mạng Xã Hội</div>
+                                    <a class="hidden-on-tablet-mobile topbar--link"  href=""><i class="fab fa-facebook-square"></i></a>
+                                    <a class="hidden-on-tablet-mobile topbar--link"  href=""><i class="fab fa-twitter-square"></i></a>
+                                    <a class="hidden-on-tablet-mobile topbar--link"  href=""><i class="fab fa-instagram-square"></i></a>
+                                    <a class="hidden-on-tablet-mobile topbar--link"  href=""><i class="fab fa-invision"></i></a>
+                                    <a class="hidden-on-tablet-mobile topbar--link"  href=""><i class="fab fa-youtube-square"></i></a>
+                                </div>
+
+                                <div style="display: flex; justify-content: flex-end;" class="topbar-second col l-6 m-6 c-6 ">
+                                    <div>
+                                        <a class=" topbar--link"  href="">
+                                        <i class="far fa-star"></i>
+                                        Gói Du Lịch
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class=" topbar--link"  href="">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Liên Hệ
+                                        </a>
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="navigation ">
+                    <div class="grid wide">
+                        <div style="padding: 12px 0;" class="">
+                            <div style="height: 34px;" class="row">
+                                <div class="col l-3 highlight">
+                                    <a class="navigation-logo" href="">
+                                        <i class="fab fa-asymmetrik navigation-img"></i>
+                                        <span style="align-items: center; font-weight: 800; font-size: 20px;">DU LỊCH</span>
+                                    </a>
+                                    <a href="" class="col hidden-on-pc menu">
+                                        <div class="search-mobile hidden-on-pc"><i class="fas fa-search"></i></div>
+                                        <div class="menu-box">
+                                            <i class="fas fa-bars"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            <div class="col l-9">
+                                <div class="navigation">
+                                    <div class="navigation-list hidden-on-tablet-mobile">
+                                        <div class="navigation-list-item">
+                                            <a href="#home" class="navigation-list-link">
+                                                TRANG CHỦ
+                                            </a>
+                                        </div>
+                                        <div class="navigation-list-item navigation-list-item-packages">
+                                            <a href="#travel" class="navigation-list-link">
+                                                DU LỊCH
+                                            </a>
+                                            <ul class="navigation__list">
+                                                <li class="navigation__list-item">
+                                                        Châu Âu
+                                                        <span class="navigation__list-item-hot">
+                                                            HOT
+                                                        </span>
+                                                </li>
+                                                <li class="navigation__list-item">
+                                                        Trong Nước
+                                                </li>
+                                                <li class="navigation__list-item-tourpackages">
+                                                        Ngoài Nước
+                                                    <i class="navigation__list-item-icon fas fa-caret-right"></i>
+                                                    <ul class="child__list">
+                                                        <li class="child__list-item">
+                                                                Châu Âu
+                                                                <span class="child-best">Tốt</span>
+                                                        </li>
+                                                        <li class="child__list-item">
+                                                                Châu Á
+                                                        </li>
+                                                        <li class="child__list-item">
+                                                                Châu Phi
+                                                        </li>
+                                                        <li class="child__list-item">
+                                                                Châu Đại Dương
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="navigation__list-item">
+                                                        Khác
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="navigation-list-item navigation-list-item-shop">
+                                            <a href="#hotel" class="navigation-list-link">
+                                                KHÁCH SẠN
+                                            </a>
+                                            <ul class="navigation__list">
+                                                <li class="navigation__list-item">
+                                                    Thông Tin Hotel
+                                                </li>
+                                                <li class="navigation__list-item">
+                                                    Đặt Hotel
+                                                </li>
+                                                <li class="navigation__list-item">
+                                                    Khuyến Mại
+                                                </li>
+                                                <li class="navigation__list-item">
+                                                    Thủ Tục Thanh Toán
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="navigation-list-item navigation-list-item-pages">
+                                            <a href="#service" class="navigation-list-link">
+                                                DỊCH VỤ
+                                            </a>
+                                            <ul class="navigation__list">
+                                                <li class="navigation__list-item">
+                                                    Tour Du Lịch Đại Lý
+                                                </li>
+                                                <li class="navigation__list-item">
+                                                    Thuê Vé Máy Bay
+                                                </li>
+                                                <li class="navigation__list-item">
+                                                    Khuyến Mại
+                                                </li>
+                                                <li class="navigation__list-item">
+                                                    Sắp Có
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="navigation-list-item navigation-list-item-news">
+                                            <a href="#news" class="navigation-list-link">
+                                                TIN TỨC
+                                            </a>
+                                            <ul class="navigation__list">
+                                            <li class="navigation__list-item">
+                                                Mới Nhất
+                                            </li>
+                                            <li class="navigation__list-item navigation__list-item-single-post">
+                                                Bài Đăng
+                                                <i class="navigation__list-item-icon fas fa-caret-right"></i>
+                                                <ul class="child__list-single-post">
+                                                    <li class="child__list-item">
+                                                        Nổi Bật
+                                                    </li>
+                                                    <li class="child__list-item">
+                                                        Đã Truy Cập
+                                                    </li>
+                                                    <li class="child__list-item">
+                                                        Tìm Kiếm Nhiều
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="navigation-list-item navigation-list-item-contact">
+                                            <a href="#introduce" class="navigation-list-link">
+                                                GIỚI THIỆU
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="hidden-on-mobile">
+                                        <button class="btn">ĐẶT TOUR</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </section>
+        </header>
+
+        <div class="wide">
+                <div data-wow-duration="" data-wow-delay="1s" class="wow slideInLeft slider-search hidden-on-pc">
+                    <input class="slider-search-input hidden-on-tablet-mobile" type="text" placeholder="Tìm Kiếm">
+                    <button class="slider-search-button hidden-on-tablet-mobile">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <a href="#" class="hidden-on-pc">
+                    <div class="fixed-pages">
+                        <i class="fixed-pages-icons fas fa-angle-up"></i>
+                    </div>
+                </a>
+        </div>
+
+        <!--  Slider Start -->
+        <div class="row">
+            <div data-aos="fade-left" class="slider" >
+                <!-- <img class="slider-img" src="./asset/img/sky_.jpg"> -->
+                <div data-wow-duration="2s" data-wow-delay="1s" class="wow bounceInUp fixed hidden-on-tablet-mobile">
+                    <a href="" class="logo-link">
+                            <div class="logo">99</div>
+                            <spans class="logo-buy" >MUA NGAY</spans>
+                            <spans class="logo_price">$</spans>
+                        <div class="logo-img-both">
+                            <a><i style="margin: 10px;" class="fas fa-plane"></i></a>
+                        </div>
+                    </a>
+                </div>
+                <a href="#">
+                    <div class="fixed-pages">
+                        <i class="fixed-pages-icons fas fa-angle-up"></i>
+                    </div>
+                </a>
+
+                
+
+                <div class="slider-both">
+                    <div class="slider-both__both">
+                        <div data-wow-duration="2s" data-wow-delay="1s" class="wow slideInRight slider-board">
+                            <div style="padding: 10px 0; ">
+                                <div  class=" slider-box">
+                                    <div data-wow-duration="2s" data-wow-delay="1s" class="slider-item">
+                                        <div><i class="slider-item-icons fas fa-umbrella-beach"></i></div>
+                                        <p style="margin:10px 12px;" class="slider-item-title">ĐỊA ĐIỂM</p>
+                                    </div>
+                                    <div data-wow-duration="2s" data-wow-delay="1s" class="slider-item">
+                                        <div><i class="slider-item-icons fas fa-hotel"></i></div>
+                                        <p style="margin:10px 2px" class="slider-item-title">KHÁCH SẠN</p>
+                                    </div>
+                                    <div data-wow-duration="2s" data-wow-delay="1s" class="slider-item">
+                                        <div><i class="slider-item-icons fas fa-plane"></i></div>
+                                        <p style="margin:10px 0px" class="slider-item-title">CHUYẾN BAY</p>
+                                    </div>
+                                    <div data-wow-duration="2s" data-wow-delay="1s" class="slider-item">
+                                        <div><i class="slider-item-icons fas fa-car"></i></div>
+                                        <p style="margin:10px 14px;" class="slider-item-title">THUÊ XE</p>
+                                    </div>
+                                </div>
+                                
+                                <div data-wow-duration="" data-wow-delay="1s" class="wow slideInLeft slider-search">
+                                    <input class="slider-search-input" type="text" placeholder="Tìm Kiếm">
+                                    <button class="slider-search-button">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-wow-duration="2s" data-wow-delay="1s" class="wow slideInRight slider-both-item">
+                            <i class="fab fa-asymmetrik slider-icon-img"></i>
+                            <div class="slider-both__sale">
+                                <span style="margin-left: -4px;" class="" >DỊCH VỤ</span>
+                                <span class="slider-both__sale-name" >GIẢM</span>
+                                <span class="slider-both__sale-name" >-50%</span>
+                            </div>
+                        </div>
+                        <div data-wow-duration="2s" data-wow-delay="" class="wow slideInRight slider-both__text">
+                            ĐẶT NGAY
+                        </div>
+                    </div>
+
+                    <div data-wow-duration="2s" data-wow-delay="1s" class="wow slideInRight slider-both__date">
+                        <span class="slider-both__date-note">
+                            HẾT NGÀY
+                            <span class="slider-both__date-number">
+                                20.11.21
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slider END -->
+
+        <!-- Start C.heading -->
+        <div id="travel" class="grid wide">
+            <div class="">
+                <div class="container__heading">
+                    <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow bounceInUp container__heading-head" >
+                        <div class=" heading-head-proposals">Chúng Tôi Giới Thiệu Đến Bạn</div>
+                        <h1 class="heading-head-destination">TOUR ĐANG HOT</h1>
+                    </div>
+                    <div class="row">
+                        <div class="">
+                            <div class="contanier__body-middle">
+                                <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft container__body-image col l-3 m-6 c-12">
+                                    <div class="hover-img">
+                                        <img class="container__body-img" alt="" src="./asset/img/maldives-g1aab5c079_640.jpg">
+                                        <div class="container__body-note hover-img">
+                                            <h3 style="font-weight: 900;">Châu Á</h3>
+                                            <div style="height: 5px;"></div>
+                                            <span style="font-size: 14px;">2 Dịch Vụ</span>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft container__body-second col l-3 m-6 c-12">
+                                    <div class="container__body-address">
+                                        <div class="address-samui">
+                                            <img src="./asset/img/package-01-720x720.jpg" alt="" class="address-samui-img">
+                                            <a href="" class="address-samui-link">
+                                                <span class="address-samui-name">Koh Samui</span>
+                                                    <div class="">
+                                                        <i class="address-samui-icon fas fa-map-marker-alt">Châu Âu</i>
+                                                    </div>
+                                                <div class="address-samui-price">FROM 700$</div>
+                                            </a>
+                                        </div>
+                                        <div class="address-samui">
+                                            <img src="./asset/img/package-02-720x720.jpg" alt="" class="address-samui-img">
+                                            <a href="" class="address-samui-link">
+                                                <span class="address-samui-name">Bora Bora</span>
+                                                    <div class="">
+                                                        <i class="address-samui-icon fas fa-map-marker-alt">Châu Á</i>
+                                                    </div>
+                                                <div class="address-samui-price">FROM 500$</div>
+                                            </a>
+                                        </div>
+                                        <div class="address-samui">
+                                            <img src="./asset/img/package-03-720x720.jpg" alt="" class="address-samui-img">
+                                            <a href="" class="address-samui-link">
+                                                <span class="address-samui-name">Maldives</span>
+                                                    <div class="">
+                                                        <i style="margin-left: -16px;" class="address-samui-icon fas fa-map-marker-alt">Châu Đại Dương</i>
+                                                    </div>
+                                                <div class="address-samui-price">FROM 400$</div>
+                                            </a>
+                                        </div>
+                                    </div>       
+                                </div>
+        
+                                <div  data-wow-duration="2s" data-wow-delay="0.1s" style="padding-left: 15px;" class="wow slideInRight container__body-image col l-3 m-6 c-12">
+                                    <div class="hover-img">
+                                        <img alt="" class="container__body-img" src="./asset/img/hinh-anh-tour-chau-au-.jpg">
+                                        <div class="container__body-note hover-img">
+                                            <h3 style="font-weight: 900;">Châu Âu</h3>
+                                            <div style="height: 5px;"></div>
+                                            <span style="font-size: 14px;">3 Dịch Vụ</span>
+                                        </div>
+                                    </div>       
+                                </div>
+        
+                                <div  data-wow-duration="2s" data-wow-delay="0.1s" style="padding-right: 0px;" class="wow slideInRight container__body-third col l-3 m-6 c-12">
+                                    <div class="container__body-address">
+                                        <div class="address-samui">
+                                            <img src="./asset/img/package-04-720x720.jpg" alt="" class="address-samui-img">
+                                            <a href="" class="address-samui-link">
+                                                <span class="address-samui-name">Hawaii</span>
+                                                    <div class="">
+                                                        <i class="address-samui-icon fas fa-map-marker-alt">Italy</i>
+                                                    </div>
+                                                <div class="address-samui-price">FROM 730$</div>
+                                            </a>
+                                        </div>
+                                        <div class="address-samui">
+                                            <img src="./asset/img/package-05-720x720.jpg" alt="" class="address-samui-img">
+                                            <a href="" class="address-samui-link">
+                                                <span class="address-samui-name">Seychelles</span>
+                                                    <div class="">
+                                                        <i class="address-samui-icon fas fa-map-marker-alt">Hà Lan</i>
+                                                    </div>
+                                                <div class="address-samui-price">FROM 1500$</div>
+                                            </a>
+                                        </div>
+                                        <div class="address-samui">
+                                            <img src="./asset/img/package-06-720x720.jpg" alt="" class="address-samui-img">
+                                            <a href="" class="address-samui-link">
+                                                <span style="margin-left: 20px;" class="address-samui-name">Phuket</span>
+                                                    <div class="">
+                                                        <i class="address-samui-icon fas fa-map-marker-alt">Thái Lan</i>
+                                                    </div>
+                                                <div class="address-samui-price">FROM 1200$</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- END C.heading -->   
+        
+        <p style="height: 55px;"></p>
+
+        <!-- Start C.Second -->
+        <div id="country" class=" container__second ">
+            <div class="container__second-title">
+            <div class="grid wide">
+                <div class="container__heading-head-second">
+                    <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft container__heading-tittle-second">
+                        <span style="color: #fff;" class="heading-head-proposals-second hidden-on-mobile">Khám phá lịch sử - văn hóa Việt Nam với</span>
+                        <h3  style="color: #fff;" class="heading-head-destination-second">TOUR TRONG NƯỚC</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="container__board">
+                        <div class="container__board-table">
+                            <div class="container__board-linefisrt">
+                                <div data-wow-duration="2s" data-wow-delay="0.1s" class="container__board-item wow slideInLeft col l-3 m-6 c-12">
+                                    <div class="container__board-both">
+                                        <img style="padding-left: 0px;" class="container__body-img-second" alt="" src="./asset/img/Du-lịch-Đà-Nẵng-2020.jpg">
+                                        <div class="container__board-name">
+                                            ĐÀ NẴNG
+                                            <p style="border-bottom: 3px solid var(--text-color); margin: 0;"></p>
+                                            <div class="container__board-input">
+                                                5.999.000 VNĐ
+                                                <div  style="display:flex; margin-left: 30px; align-items: center;">
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <button style=""  class="btn">
+                                                    ĐẶT NGAY
+                                                </button>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div data-wow-duration="2s" data-wow-delay="0.1s" class="container__board-item wow slideInLeft col l-3 m-6 c-12">
+                                    <div class="container__board-both">
+                                        <img style="padding-left: 0px;" class="container__body-img-second" alt="" src="./asset/img/pho-co-hoi-an.jpg">
+                                        <div class="container__board-name">
+                                            HỘI AN
+                                            <p style="border-bottom: 3px solid var(--text-color); margin: 0;"></p>
+                                            <div class="container__board-input">
+                                                4.999.000 VNĐ
+                                                <div  style="display:flex; margin-left: 30px; align-items: center;">
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                            <button style=""  class="btn">
+                                                ĐẶT NGAY
+                                            </button>                                                
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-wow-duration="2s" data-wow-delay="0.1s" class="container__board-item wow slideInRight col l-3 m-6 c-12">
+                                    <div class="container__board-both">
+                                        <img style="padding-left: 0px;" class="container__body-img-second" alt="" src="./asset/img/thanh-pho-khong-ngu-phu-quoc-1.jpg">
+                                        <div class="container__board-name">
+                                            PHÚ QUỐC
+                                            <p style="border-bottom: 3px solid var(--text-color); margin: 0;"></p>
+                                            <div class="container__board-input">
+                                                7.999.000 VNĐ
+                                                <div  style="display:flex; margin-left: 30px; align-items: center;">
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                            <button style=""  class="btn">
+                                                ĐẶT NGAY
+                                            </button>                                                
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-wow-duration="2s" data-wow-delay="0.1s" class="container__board-item wow slideInRight col l-3 m-6 c-12">
+                                        <div class="container__board-both">
+                                            <img style="padding-left: 0px;" class="container__body-img-second" alt="" src="./asset/img/sapa.jpg">
+                                            <div class="container__board-name">
+                                                SAPA
+                                                <p style="border-bottom: 3px solid var(--text-color); margin: 0;"></p>
+                                                <div class="container__board-input">
+                                                    6.999.000 VNĐ
+                                                    <div  style="display:flex; margin-left: 30px; align-items: center;">
+                                                        <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                        <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                        <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                        <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                        <i style="color: yellow; font-size: 14px;" class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                <button style=""  class="btn">
+                                                    ĐẶT NGAY
+                                                </button>                                                
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- END C.Second -->
+
+        <!--  -->
+        <div id="favorite" class="grid wide">
+            <div class="row">
+                <div style="" class="container">
+                    <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft container__heading-head">
+                        <h1 class="heading-head-destination">ĐIỂM YÊU THÍCH</h1>
+                    </div>
+                 <div style="display: flex;" class=" col-12">
+                     <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft img-round col-3">
+                         <img class="round-photo" src="./asset/img/hanoi.jpg" alt="">
+                         <div class="img-round-title">Hà Nội</div>
+                     </div>
+                     <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft img-round col-3">
+                         <img class="round-photo" src="./asset/img/laocai-bac-ha.jpg" alt="">
+                         <div class="img-round-title">Lào Cai</div>
+                     </div>
+                     <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight img-round col-3">
+                         <img class="round-photo" src="./asset/img/du-lich-ha-long.jpg" alt="">
+                         <div class="img-round-title">Hạ Long</div>
+                     </div>
+                     <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight img-round col-3">
+                         <img class="round-photo" src="./asset/img/ninhbinh.jpg" alt="">
+                         <div class="img-round-title">Ninh Bình</div>
+                     </div>
+                 </div>
+                 <div style="display: flex;" class=" col-12">
+                     <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft img-round col-3">
+                         <img class="round-photo" src="./asset/img/nha-trang.jpg" alt="">
+                         <div class="img-round-title">Nha Trang</div>
+                     </div>
+                     <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft img-round col-3">
+                         <img class="round-photo" src="./asset/img/mui-ne-phan-thiet-gia-re-dep.jpg" alt="">
+                         <div class="img-round-title">Phan Thiết</div>
+                     </div>
+                     <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight img-round col-3">
+                         <img class="round-photo" src="./asset/img/dalat.jpg" alt="">
+                         <div class="img-round-title">Đà Lạt</div>
+                     </div>
+                     <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight img-round col-3 ">
+                         <img class="round-photo" src="./asset/img/vungtau.jpg" alt="">
+                         <div class="img-round-title">Vũng Tàu</div>
+                     </div>
+                 </div>
+                 <div style="height: 50px;"></div>
+                 <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow bounceInUp" style="margin-left: 43%; ">
+                     <a href="" class="btn btn-travel-readmore">KHÁM PHÁ NGAY</a>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+
+        <p style="height: 55px;"></p>
+
+        <!--  -->
+        <div id="service" class="container__forecast">
+        <div class="grid wide">
+            <div class="row">
+                <!-- Start container__forecast -->
+                    <div class="wide">
+                        <div class="row">
+                            <h1 data-wow-duration="2s" data-wow-delay="0.1s" style="color: #fff; margin:0px 43%; padding-top: 40px;" class="wow bounceInUp heading-head-destination-second">DỊCH VỤ</h1>
+                        <div class="container__forecast-both">
+                            <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft container__forecast-o col c-12 m-6 l-3">
+                                <div class="container__forecast-box">
+                                    <i class="fas fa-hotel container__forecast-icon"></i>
+                                    <h3 style="margin-left: 58px;" class="container__forecast-title" >KHÁCH SẠN</h3>
+                                    <p class="container__forecast-para">Khách sạn tốt nhất tại các điểm du lịch nổi tiếng</p>
+                                    <p style="height: 10px;"></p>
+                                    <button style="margin:0 49px;"  class="btn-ourblog">ĐẶT NGAY</button>
+                                </div>
+                            </div>
+                            <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft container__forecast-o col c-12 m-6 l-3">
+                                <div class="container__forecast-box">
+                                    <i class="fas fa-car container__forecast-icon"></i>
+                                    <h3 style="margin-left: 75px;" class="container__forecast-title" >THUÊ XE</h3>
+                                    <p class="container__forecast-para">Dịch vụ cho thuê giá tốt từ các nhà xe uy tín và chu đáo</p>
+                                    <p style="height: 10px;"></p>
+                                    <button style="margin:0 49px;"  class="btn-ourblog">ĐẶT NGAY</button>
+                                </div>
+                            </div>
+                            <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight container__forecast-o col c-12 m-6 l-3">
+                                <div class="container__forecast-box">
+                                    <i class="fab fa-cc-visa container__forecast-icon"></i>
+                                    <h3 style="margin-left: 96px;" class="container__forecast-title" >VISA</h3>
+                                    <p class="container__forecast-para">Dịch vụ Visa nhanh, rẻ.Visa trọn gói, thủ tục đơn giản</p>
+                                    <p style="height: 10px;"></p>
+                                    <button style="margin:0 49px;"  class="btn-ourblog">ĐẶT NGAY</button>
+                                </div>
+                            </div>
+                            <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight container__forecast-o col c-12 m-6 l-3">
+                                <div class="container__forecast-box">
+                                    <i class="fas fa-plane container__forecast-icon"></i>
+                                    <h3 style="margin-left: 56px;" class="container__forecast-title" >VÉ MÁY BAY</h3>
+                                    <p class="container__forecast-para">Vé máy bay giá rẻ nhất, nhiều khuyến mại hấp dẫn</p>
+                                    <p style="height: 10px;"></p>
+                                    <button style="margin:0 49px;"  class="btn-ourblog">ĐẶT NGAY</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END container__forecast -->
+            </div>
+        </div>
+        <!--  -->
+
+        <p style="height: 55px;"></p>
+
+        <!--  -->
+        <div id="news" class="grid wide">
+            <div class="row">
+                <div id="tintuc" class="container">
+                    <div class="container__travel col-12">
+                        <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow bounceInDown travel__articles col-4">
+                            <h3 class="travel__articles-title">ĐỀ XUẤT CỦA CHÚNG TÔI</h3>
+                            <p class="height20px"></p>
+                            <h1 style="font-size: 50px; line-height: 50px;" class="">Bài Báo & Tin Tức</h1>
+                            <p style="height: 30px; border-bottom: 2px solid #fff;"></p>
+                            <!-- <img style="padding-left: 15px;" class="container__body-img" alt="" src="./asset/img/Cocoa_Island_Maldives-5-770x368.jpg"> -->
+                            <h1 style="font-size: 30px; line-height: 50px;" class="">Tin Mới</h1>
+                            <h2 style="color: #fff; cursor: pointer;" class="flex-title">Black Friday là gì? Đại tiệc siêu khuyến mãi Black Friday!</h2>
+                            <p class="travel__articles-paragrape"></p>
+                            <div>
+                                <button class="btn-ourblog">XEM TẤT CẢ</button>
+                            </div>
+                        </div>
+                        
+                        <div data-wow-duration="2s" data-wow-delay="0.1s" class=" wow slideInRight travel__flexbox-on col-4">
+                            <div class="flex-item">
+                                <p class="flex-date">Ngày 30 Tháng 12 Năm 2021</p>
+                                <h2 class="flex-title">Sự Kiện Du Lịch</h2>
+                                <p style="height: 10px;"></p>
+                                <p class="flex-parag">Hành trình khám phá địa điểm du lịch Miền Bắc mùa đông lý tưởng.“Tháng 11 12 du lịch miền Bắc nên đi đâu” hay “du lịch... </p>
+                                <div class="height20px"></div>
+                                <p style="height: 10px;"></p>
+                                <a href="" class="btn-travel-readmore">ĐỌC THÊM</a>
+                            </div>
+    
+                            <div class="flex-item">
+                                <p class="flex-date">Ngày 30 Tháng 12 Năm 2021</p>
+                                <h2 class="flex-title">Du Lịch Nhật Bản </h2>
+                                <p style="height: 10px;"></p>
+                                <p class="flex-parag">Cùng vẻ đẹp cổ kính của những di sản văn hóa lừng danh, du lịch Nhật Bản mùa thu còn khiến người lữ khách rung động bởi sự...</p>
+                                <div class="height20px"></div>
+                                <p style="height: 10px;"></p>
+                                <a href="" class="btn-travel-readmore">ĐỌC THÊM</a>
+                            </div>
+    
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-delay="0.1s" class=" wow slideInRight travel__flexbox-under col-4">
+                            <div class="flex-item">
+                                <p class="flex-date">Ngày 30 Tháng 12 Năm 2021</p>
+                                <h2 class="flex-title">Bãi Biển Tốt Nhất</h2>
+                                <p style="height: 10px;"></p>
+                                <p class="flex-parag">Những cung đường biển đẹp như mơ, ngọn Hải đăng cổ nổi tiếng, tượng Chúa giang tay bình yên, những góc phố thơ mộng...</p>
+                                <div class="height20px"></div>
+                                <p style="height: 10px;"></p>
+                                <a style="background-color: #0071a7;" href="" class="btn-travel-readmore">ĐỌC THÊM</a>
+                            </div>
+    
+                            <div class="flex-item">
+                                <p class="flex-date">Ngày 30 Tháng 12 Năm 2021</p>
+                                <h2 class="flex-title">Khám Phá Gì Ở Đức</h2>
+                                <p style="height: 10px;"></p>
+                                <p class="flex-parag">Đức nổi tiếng là một trong các quốc gia ở Châu Âu có nhiều tòa lâu đài cổ, công trình lịch sử tuyệt đẹp và phong cảnh nên thơ...</p>
+                                <div class="height20px"></div>
+                                <p style="height: 10px;"></p>
+                                <a style="background-color: #0071a7;" href="" class="btn-travel-readmore">ĐỌC THÊM</a>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!--  -->
+
+        <p style="height: 55px;"></p>
+
+        <footer>
+            <div class="footer">
+                <div class="grid wide">
+                    <div class="row">
+                        <div style="display: flex; padding-top: 50px; padding-bottom: 20px;" class="col">
+                            <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft col l-3 m-6 c-12">
+                                <div class="footer-box">
+                                    <h3 class="footer-title">CÔNG TY TNHH DU LỊCH VIỆT NAM</h3>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text">Trụ Sở: 427 Nguyễn Trãi, Quận Thanh Xuân, Hà Nội</p>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text">Điện Thoại: <a class="footer-link" href="">03874356789</a></p>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text">Website: <a class="footer-link" href="">dulich.com.vn</a></p>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text">Email: <a class="footer-link" href="">dulich@gmail.com.vn</a></p>
+                                </div>
+                            </div>
+                            <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft col l-3 m-6 c-12">
+                                <div class="footer-box">
+                                    <h3 class="footer-title">GIỚI THIỆU</h3>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text">Du lịch Việt Nam là một Blog về du lịch được công ty Du Lịch 
+                                         và nhóm HDV vận hành và phát triển.
+                                          Các bài viết được tổng hợp đa phần từ những chuyến
+                                           đi thực tế của HDV và khách hàng, và có tham khảo
+                                            thêm nội dung trên Google.</p>
+                                </div>
+                            </div>
+                            <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight col l-3 m-6 c-12">
+                                <div class="footer-box">
+                                    <h3 class="footer-title">GÓC KHÁCH HÀNG</h3>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text"><a class="footer-link" href="">Chính sách khuyến mại</a></p>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text"><a class="footer-link" href="">Chính sách đặt tour</a></p>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text"><a class="footer-link" href="">Chính sách bảo mật</a></p>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text"><a class="footer-link" href="">Ý kiến khách hàng</a></p>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text"><a class="footer-link" href="">Phiếu góp ý</a></p>
+                                </div>
+                            </div>
+                            <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight col l-3 m-6 c-12">
+                                <div class="footer-box">
+                                    <h3 class="footer-title">ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI</h3>
+                                    <p style="height: 10px;"></p>
+                                    <p class="footer-text">Nhập email để có cơ hội giảm 50% cho Quý khách</p>
+                                    <div>
+                                        <input class="footer-input" type="text" placeholder="Email">
+                                        <button class="footer-btn">GỬI</button>
+                                    </div>
+                                    <div>
+                                        <img class="footer-img" src="./asset/img/appstore.png" alt="">
+                                        <img class="footer-img" src="./asset/img/google.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div style="border-bottom: 2px solid #fff; width: 100%;"></div>
+                        
+                        <p data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft footer-icon-title">Kết Nối Với Chúng Tôi</p>
+                        <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInLeft footer-icons">
+                            <a class="footer-icons-item"  href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="footer-icons-item"  href=""><i class="fab fa-twitter"></i></a>
+                            <a class="footer-icons-item"  href=""><i class="fab fa-instagram"></i></a>
+                            <a class="footer-icons-item"  href=""><i class="fab fa-invision"></i></a>
+                            <a class="footer-icons-item"  href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div style="background-color: var(--text-color); height: 35px;">
+            <div class="grid wide">
+                <div data-wow-duration="2s" data-wow-delay="0.1s" class="wow slideInRight container copyright">Copyright © Bản quyền thuộc về Công Ty TNNH Du Lịch Việt Nam</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="asset/wow.min.js"></script>
+        <script> new WOW().init(); </script>
+        <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+
+        <script src="asset/main.js"></script>
+        <script>src="https://code.jquery.com/jquery-3.6.0.js"</script>
+        <script>
+            
+        </script>
+</body>
+</html>

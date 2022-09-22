@@ -1,0 +1,196 @@
+/* Mobile :width < 740px */
+@media only screen and (max-width : 739px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+
+    .navigation-logo {
+        margin-left: 10px;
+    }
+
+    .highlight {
+        display: flex;
+    }
+
+    .search-mobile {
+        color: #000;
+        display: block;
+        font-size: 26px;
+    }
+    
+    .menu {
+        display: flex;
+        color: #000;
+        font-size: 28px;
+        margin-left: 80px;
+        padding: 5px;
+    }
+
+    .menu-box {
+        margin-left: 20px;
+    }
+
+    .slider {
+        height: 600px;
+    }
+
+    .slider-both__both {
+        background: none;
+    }
+
+    .slider-both-item {
+        top: -40%;
+    }
+
+    .slider-both__date {
+        display: none;
+    }
+
+    .slider-both__text {
+        top: 23%;
+    }
+
+    .heading-head-proposals {
+        margin: 0;
+        display: none;
+    }
+
+    .heading-head-destination {
+        margin: 0;
+        font-size: 26px;
+    }
+
+    .contanier__body-middle {
+        flex-wrap: wrap;
+    }
+
+    .container__body-img {
+        padding: 8px 0;
+    }
+
+    .container__body-second,
+    .container__body-third {
+        padding:8px 0;
+    }
+
+    .container__body-image {
+        padding: 8px 0 !important;
+    }
+
+    .heading-head-destination-second {
+        font-style: 36px;
+        font-weight: 0;
+        margin-left: 60px;
+        width: 300px;
+        line-height: 0;
+    }
+}
+
+
+/* Tablet :width >= 740px and width < 1024px */
+@media only screen and (min-width : 740px) and (max-width : 1023px) {
+    .hidden-on-tablet {
+        display: none;
+    }
+
+    .search-mobile {
+        color: #000;
+        display: block;
+        font-size: 26px;
+    }
+
+    .highlight {
+        display: flex;
+        float: left;
+    }
+    
+    .menu {
+        display: flex;
+        color: #000;
+        font-size: 28px;
+        margin-left: 280px;
+        padding: 5px;
+    }
+
+    .menu-box {
+        margin-left: 20px;
+    }
+
+    .slider {
+        background-image: url(./img/sky_.jpg);
+        width: 100%;
+    }
+
+    .slider-both {
+        top: 25%;
+    }
+
+    .heading-head-proposals {
+        margin: 0 20%;
+    }
+
+    .heading-head-destination {
+        margin: 0 23%;
+        font-size: 30px;
+    }
+
+    .contanier__body-middle {
+        flex-wrap: wrap;
+    }
+
+    .container__body-address {
+        margin-left: 40px;
+    }
+
+    .address-samui-link {
+        margin-left: 20px;
+    }
+
+    .address-samui-img {
+        margin-bottom: 37px;
+    }
+
+    .container__body-img {
+        padding: 8px 0;
+    }
+
+    .container__body-second,
+    .container__body-third {
+        padding:8px 0;
+    }
+
+    .container__body-image {
+        padding: 0 !important;
+    }
+}
+
+/* Tablet and Mobile */
+@media only screen and (max-width : 1023px) {
+.hidden-on-tablet-mobile {
+    display: none;
+}
+
+.slider {
+    background-image: url(./img/sky_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    min-height: 1vh;
+}
+
+.slider-board {
+    display:none;
+}
+
+
+
+}
+
+/* PC :width > 1024px */
+@media only screen and (min-width : 1024px){
+    .hidden-on-pc {
+        display: none;
+    }
+}
